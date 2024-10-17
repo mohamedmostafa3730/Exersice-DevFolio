@@ -1,0 +1,254 @@
+:root {
+  --text-white: white;
+}
+body {
+  height: 10000px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.heed-h1 {
+  font-size: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand,
+.home-section,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--text-white);
+}
+
+.home-content {
+  font-size: 4.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home-section {
+  background-image: url(/images/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.anima {
+  font-size: 2.5rem;
+}
+
+.anima::after {
+  content: "|";
+  animation-name: DDPF;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes DDPF {
+  0% {
+    content: " |";
+  }
+  5% {
+    content: " D |";
+  }
+  10% {
+    content: " De |";
+  }
+  15% {
+    content: " Des |";
+  }
+  20% {
+    content: " Desi |";
+  }
+  25% {
+    content: " Desig |";
+  }
+  30% {
+    content: " Design |";
+  }
+  35% {
+    content: " Designe |";
+  }
+  40% {
+    content: " Designer |";
+  }
+  45% {
+    content: " Designe |";
+  }
+  50% {
+    content: " Design |";
+  }
+  55% {
+    content: " Desig |";
+  }
+  60% {
+    content: " Desi |";
+  }
+  65% {
+    content: " Des |";
+  }
+  70% {
+    content: " De |";
+  }
+  75% {
+    content: " D |";
+  }
+  80% {
+    content: " D|";
+  }
+  85% {
+    content: " |";
+  }
+  90% {
+    content: "|";
+  }
+  95% {
+    content: " |";
+  }
+  100% {
+    content: " |";
+  }
+}
+/* ===============----second-section----============= */
+h2 {
+  position: relative;
+}
+.inder-line-about h2::after {
+  content: "";
+  width: 15%;
+  height: 3px;
+  background-color: #0078ff;
+  position: absolute;
+  bottom: -15%;
+  left: 0%;
+}
+
+.margin-section-block {
+  margin-block: 5rem;
+}
+
+.large-font-size {
+  font-size: 3rem;
+}
+
+/* ===============----Services-section----============= */
+
+.inder-line-services {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+/* ===============----Services-section----============= */
+
+.Services-section .icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  transition: all 500ms ease;
+}
+
+.Services-section .inner:hover .icon-circle {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+/* ===============----counter-section----============= */
+.counter-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 50vh; */
+  background-image: url(/images/counters-bg.jpg);
+  padding: 8rem 0;
+  position: relative;
+}
+
+.counter-section::after {
+  content: "";
+  background-color: #0078ff;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/* .bg-maker-opacity {
+  background-color: #0078ff;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+} */
+
+.counter-section .icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #cde1f8;
+  transition: all 500ms ease;
+}
+
+/* ===============----Portfolio-section----============= */
+
+.Portfolio-section .inner:hover img {
+  transform: scale(1.3);
+}
+
+.Portfolio-section img {
+  transition: all 1s;
+  cursor: pointer;
+}
+/* ===============----slider-section----=============  */
+.slider-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: url(/images/overlay-bg.jpg);
+  padding: 8rem 0;
+  position: relative;
+}
+
+.slider-section::after {
+  content: "";
+  background-color: #0078ff;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
