@@ -21,9 +21,7 @@
     <link rel="stylesheet" href="style/all.min.css" />
   </head>
   <body>
-    <nav
-      class="bg-opacity-75 bg-black w-100 position-fixed navbar navbar-expand-lg z-3"
-    >
+    <nav class="navbar-color w-100 position-fixed navbar navbar-expand-lg z-3">
       <div class="container">
         <a class="navbar-brand fw-bold" href="#">DevFolio</a>
         <button
@@ -92,109 +90,115 @@
       </div>
     </div>
     <!-- ===============----about-section----============= -->
-    <div class="about-section margin-section-block container">
-      <div class="container-fluid shadow bg-white row">
-        <div class="container-fluid col-6 my-5">
-          <div class="d-flex flex-column flex-nowrap align-items-center">
-            <div class="d-flex">
-              <div class="info">
-                <img
-                  class="rounded m-0"
-                  src="images/testimonial-2.jpg"
-                  alt="testimonial"
-                />
+    <div class="about-section fff-color overflow-auto">
+      <div class="container margin-section-block">
+        <div class="container bg-white shadow row">
+          <div class="col-6 my-5">
+            <div class="d-flex flex-column flex-nowrap align-items-center">
+              <div class="d-flex">
+                <div class="info">
+                  <img
+                    class="rounded m-0"
+                    src="images/testimonial-2.jpg"
+                    alt="testimonial"
+                  />
+                </div>
+                <div class="info mb-0">
+                  <ul>
+                    <li class="pb-3 list-group-item">
+                      <strong class="fw-bold">Name:</strong> Morgan Freeman
+                    </li>
+                    <li class="pb-3 list-group-item">
+                      <strong class="fw-bold">Profile:</strong> full stack
+                      developer
+                    </li>
+                    <li class="pb-3 list-group-item">
+                      <strong class="fw-bold">Email:</strong>
+                      contact@example.com
+                    </li>
+                    <li class="list-group-item">
+                      <strong class="fw-bold">Phone:</strong> (617) 557-0089
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="info mb-0">
-                <ul>
-                  <li class="pb-3 list-group-item">
-                    <strong class="fw-bold">Name:</strong> Morgan Freeman
-                  </li>
-                  <li class="pb-3 list-group-item">
-                    <strong class="fw-bold">Profile:</strong> full stack
-                    developer
-                  </li>
-                  <li class="pb-3 list-group-item">
-                    <strong class="fw-bold">Email:</strong> contact@example.com
-                  </li>
-                  <li class="list-group-item">
-                    <strong class="fw-bold">Phone:</strong> (617) 557-0089
-                  </li>
-                </ul>
+            </div>
+            <div class="container">
+              <p class="fw-medium fs-5">Skill</p>
+              <span>HTML 85% </span>
+              <div
+                class="mb-4 mt-2 progress rounded-0"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+              <span>CSS3 75% </span>
+              <div
+                class="mb-4 mt-2 progress rounded-0"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+              <span>PHP 50% </span>
+              <div
+                class="mb-4 mt-2 progress rounded-0"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 50%"></div>
+              </div>
+              <span>JAVASCRIPT 90% </span>
+              <div
+                class="mb-4 mt-2 progress rounded-0"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 90%"></div>
               </div>
             </div>
           </div>
-          <div class="container">
-            <p class="fw-medium fs-5">Skill</p>
-            <span>HTML 85% </span>
-            <div
-              class="mb-4 mt-2 progress rounded-0"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow="0"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div class="progress-bar" style="width: 85%"></div>
-            </div>
-            <span>CSS3 75% </span>
-            <div
-              class="mb-4 mt-2 progress rounded-0"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div class="progress-bar" style="width: 75%"></div>
-            </div>
-            <span>PHP 50% </span>
-            <div
-              class="mb-4 mt-2 progress rounded-0"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow="50"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div class="progress-bar" style="width: 50%"></div>
-            </div>
-            <span>JAVASCRIPT 90% </span>
-            <div
-              class="mb-4 mt-2 progress rounded-0"
-              role="progressbar"
-              aria-label="Basic example"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div class="progress-bar" style="width: 90%"></div>
-            </div>
+          <div class="inder-line-about container mb-5 fw-medium col-6">
+            <h2 class="mt-5">About me</h2>
+            <p class="pt-4 fs-5 fw-light">
+              Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Praesent sapien massa, convallis a pellentesque nec, egestas non
+              nisi. Nulla porttitor accumsan tincidunt.
+            </p>
+            <p class="py-3 fs-5 fw-light">
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum
+              ac diam sit amet quam vehicula elementum sed sit amet dui.
+              porttitor at sem.
+            </p>
+            <p class="fs-5 fw-light">
+              Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut
+              lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            </p>
           </div>
-        </div>
-        <div class="inder-line-about container mb-5 fw-medium col-6">
-          <h2 class="mt-5">About me</h2>
-          <p class="pt-4 fs-5 fw-light">
-            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Praesent sapien massa, convallis a pellentesque nec, egestas non
-            nisi. Nulla porttitor accumsan tincidunt.
-          </p>
-          <p class="py-3 fs-5 fw-light">
-            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
-            suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam
-            sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-          </p>
-          <p class="fs-5 fw-light">
-            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut
-            lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.
-            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-          </p>
         </div>
       </div>
     </div>
     <!-- ===============----Services-section----============= -->
-    <div class="Services-section margin-section-block container">
-      <div class="Services-section-head text-center mt-5">
+    <div class="Services-section section-bg overflow-auto">
+      <div
+        class="container Services-section-head section-bg margin-section-block text-center mt-5"
+      >
         <h2 class="fw-bold large-font-size text-uppercase">Services</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <div class="inder-line-services"></div>
@@ -375,8 +379,8 @@
       </div>
     </div>
     <!-- ===============----Portfolio-section----============= -->
-    <div class="Portfolio-section margin-section-block">
-      <div class="container">
+    <div class="Portfolio-section section-bg overflow-auto">
+      <div class="container section-bg margin-section-block">
         <div class="Portfolio-section-head text-center text-black">
           <h2 class="fw-bold large-font-size text-uppercase">Portfolio</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -564,7 +568,137 @@
       </div>
     </div>
     <!-- ===============----blog-section----============= -->
-
+    <div class="fff-color overflow-auto blog-section">
+      <div class="container margin-section-block">
+        <div class="blog-section-head text-center text-black">
+          <h2 class="fw-bold large-font-size text-uppercase">Blog</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <div class="inder-line-services"></div>
+        </div>
+        <div class="blog-section-items row">
+          <div class="items item-1 my-5 col-4">
+            <div
+              class="inner bg-white shadow d-flex flex-column justify-content-center align-items-center rounded-bottom-2"
+            >
+              <div class="item-image">
+                <img src="images/post-1.jpg" class="w-100 d-block" alt="post" />
+              </div>
+              <div class="position-relative item-content p-3">
+                <h6
+                  class="mb-0 position-absolute position-top-left text-center text-white text-uppercase bg-primary"
+                >
+                  Travel
+                </h6>
+                <h3 class="text-black fs-5 mt-2">
+                  See more ideas about Travel
+                </h3>
+                <p>
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div
+                class="item-bottom d-flex w-100 flex-row justify-content-between p3 fff-color border-top border rounded-bottom-2 p-2"
+              >
+                <div class="writer-side">
+                  <img
+                    src="images/testimonial-2.jpg"
+                    class="rounded-circle width-new"
+                    alt=""
+                  />
+                  <span>Morgan Freeman</span>
+                </div>
+                <div class="date-side fw-normal">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>10 min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="items item-1 my-5 col-4">
+            <div
+              class="inner bg-white shadow d-flex flex-column justify-content-center align-items-center rounded-bottom-2"
+            >
+              <div class="item-image">
+                <img src="images/post-2.jpg" class="w-100 d-block" alt="post" />
+              </div>
+              <div class="position-relative item-content p-3">
+                <h6
+                  class="mb-0 position-absolute position-top-left text-center text-white text-uppercase bg-primary"
+                >
+                  Web Design
+                </h6>
+                <h3 class="text-black fs-5 mt-2">
+                  See more ideas about Travel
+                </h3>
+                <p>
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div
+                class="item-bottom d-flex w-100 flex-row justify-content-between p3 fff-color border-top border rounded-bottom-2 p-2"
+              >
+                <div class="writer-side">
+                  <img
+                    src="images/testimonial-2.jpg"
+                    class="rounded-circle width-new"
+                    alt=""
+                  />
+                  <span>Morgan Freeman</span>
+                </div>
+                <div class="date-side fw-normal">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>10 min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="items item-1 my-5 col-4">
+            <div
+              class="inner bg-white shadow d-flex flex-column justify-content-center align-items-center rounded-bottom-2"
+            >
+              <div class="item-image">
+                <img src="images/post-3.jpg" class="w-100 d-block" alt="post" />
+              </div>
+              <div class="position-relative item-content p-3">
+                <h6
+                  class="mb-0 position-absolute position-top-left text-center text-white text-uppercase bg-primary"
+                >
+                  Travel
+                </h6>
+                <h3 class="text-black fs-5 mt-2">
+                  See more ideas about Travel
+                </h3>
+                <p>
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div
+                class="item-bottom d-flex w-100 flex-row justify-content-between p3 fff-color border-top border rounded-bottom-2 p-2"
+              >
+                <div class="writer-side">
+                  <img
+                    src="images/testimonial-2.jpg"
+                    class="rounded-circle width-new"
+                    alt=""
+                  />
+                  <span>Morgan Freeman</span>
+                </div>
+                <div class="date-side fw-normal">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>10 min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- link with bootstrap-5.js.file -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
