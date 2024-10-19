@@ -47,73 +47,259 @@ body {
 .anima::after {
   content: "|";
   animation-name: DDPF;
-  animation-duration: 3s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
 }
 
 @keyframes DDPF {
   0% {
-    content: " |";
+    content: " | ";
+  }
+  1% {
+    content: " D | ";
+  }
+  2% {
+    content: " De | ";
+  }
+  3% {
+    content: " Des | ";
+  }
+  4% {
+    content: " Desi | ";
   }
   5% {
-    content: " D |";
+    content: " Desig | ";
   }
-  10% {
-    content: " De |";
+  6% {
+    content: " Design | ";
+  }
+  7% {
+    content: " Designe | ";
+  }
+  8% {
+    content: " Designer | ";
+  }
+  13% {
+    content: " Designe | ";
+  }
+  14% {
+    content: " Design | ";
   }
   15% {
-    content: " Des |";
+    content: " Desig | ";
+  }
+  16% {
+    content: " Desi | ";
+  }
+  17% {
+    content: " Des | ";
+  }
+  18% {
+    content: " De | ";
+  }
+  19% {
+    content: " D | ";
   }
   20% {
-    content: " Desi |";
+    content: "  | ";
+  }
+  21% {
+    content: " | ";
+  }
+  22% {
+    content: " D | ";
+  }
+  23% {
+    content: " De | ";
+  }
+  24% {
+    content: " Dev | ";
   }
   25% {
-    content: " Desig |";
+    content: " Deve | ";
+  }
+  26% {
+    content: " Devel | ";
+  }
+  27% {
+    content: " Develo | ";
+  }
+  28% {
+    content: " Develop | ";
+  }
+  29% {
+    content: " Develope | ";
   }
   30% {
-    content: " Design |";
+    content: " Developer | ";
+  }
+  33% {
+    content: " Develope | ";
+  }
+  34% {
+    content: " Develop | ";
   }
   35% {
-    content: " Designe |";
+    content: " Develo | ";
+  }
+  36% {
+    content: " Devel | ";
+  }
+  37% {
+    content: " Deve | ";
+  }
+  38% {
+    content: " Dev | ";
+  }
+  39% {
+    content: " De | ";
   }
   40% {
-    content: " Designer |";
+    content: " D | ";
+  }
+  41% {
+    content: "  | ";
+  }
+  42% {
+    content: " | ";
+  }
+  43% {
+    content: " p | ";
+  }
+  44% {
+    content: " ph | ";
   }
   45% {
-    content: " Designe |";
+    content: " pho | ";
+  }
+  46% {
+    content: " phot | ";
+  }
+  47% {
+    content: " photo | ";
+  }
+  48% {
+    content: " photog | ";
+  }
+  49% {
+    content: " photogr | ";
   }
   50% {
-    content: " Design |";
+    content: " photogra | ";
   }
-  55% {
-    content: " Desig |";
+  51% {
+    content: " photograp | ";
+  }
+  52% {
+    content: " photograph | ";
+  }
+  53% {
+    content: " photographe | ";
+  }
+  54% {
+    content: " photographer | ";
+  }
+  57% {
+    content: " photographe | ";
+  }
+  58% {
+    content: " photograph | ";
+  }
+  59% {
+    content: " photograp | ";
   }
   60% {
-    content: " Desi |";
+    content: " photogra | ";
+  }
+  61% {
+    content: " photogr | ";
+  }
+  62% {
+    content: " photog | ";
+  }
+  63% {
+    content: " photo | ";
+  }
+  64% {
+    content: " phot | ";
   }
   65% {
-    content: " Des |";
+    content: " pho | ";
+  }
+  66% {
+    content: " ph | ";
+  }
+  67% {
+    content: " p | ";
+  }
+  68% {
+    content: "  | ";
+  }
+  69% {
+    content: " | ";
   }
   70% {
-    content: " De |";
+    content: " f | ";
+  }
+  71% {
+    content: " fr | ";
+  }
+  72% {
+    content: " fre | ";
+  }
+  73% {
+    content: " free | ";
+  }
+  74% {
+    content: " freel | ";
   }
   75% {
-    content: " D |";
+    content: " freela | ";
   }
-  80% {
-    content: " D|";
+  76% {
+    content: " freelan | ";
+  }
+  77% {
+    content: " freelanc | ";
+  }
+  78% {
+    content: " freelance | ";
+  }
+  79% {
+    content: " freelancer | ";
+  }
+  82% {
+    content: " freelance | ";
+  }
+  83% {
+    content: " freelanc | ";
+  }
+  84% {
+    content: " freelan | ";
   }
   85% {
-    content: " |";
+    content: " freela | ";
+  }
+  86% {
+    content: " freel | ";
+  }
+  87% {
+    content: " free | ";
+  }
+  88% {
+    content: " fre | ";
+  }
+  89% {
+    content: " fr | ";
   }
   90% {
-    content: "|";
+    content: " f | ";
   }
-  95% {
-    content: " |";
+  91% {
+    content: "  | ";
   }
   100% {
-    content: " |";
+    content: " | ";
   }
 }
 /* ===============----second-section----============= */
