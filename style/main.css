@@ -2,7 +2,6 @@
   --text-white: white;
 }
 body {
-  height: 10000px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -79,242 +78,251 @@ body {
   8% {
     content: " Designer | ";
   }
-  13% {
+  16% {
     content: " Designe | ";
   }
-  14% {
+  17% {
     content: " Design | ";
   }
-  15% {
+  18% {
     content: " Desig | ";
   }
-  16% {
+  19% {
     content: " Desi | ";
   }
-  17% {
+  20% {
     content: " Des | ";
   }
-  18% {
-    content: " De | ";
-  }
-  19% {
-    content: " D | ";
-  }
-  20% {
-    content: "  | ";
-  }
   21% {
-    content: " | ";
+    content: " De | ";
   }
   22% {
     content: " D | ";
   }
   23% {
-    content: " De | ";
+    content: "  | ";
   }
   24% {
-    content: " Dev | ";
+    content: " | ";
   }
   25% {
-    content: " Deve | ";
-  }
-  26% {
-    content: " Devel | ";
-  }
-  27% {
-    content: " Develo | ";
-  }
-  28% {
-    content: " Develop | ";
-  }
-  29% {
-    content: " Develope | ";
-  }
-  30% {
-    content: " Developer | ";
-  }
-  33% {
-    content: " Develope | ";
-  }
-  34% {
-    content: " Develop | ";
-  }
-  35% {
-    content: " Develo | ";
-  }
-  36% {
-    content: " Devel | ";
-  }
-  37% {
-    content: " Deve | ";
-  }
-  38% {
-    content: " Dev | ";
-  }
-  39% {
-    content: " De | ";
-  }
-  40% {
     content: " D | ";
   }
+  26% {
+    content: " De | ";
+  }
+  27% {
+    content: " Dev | ";
+  }
+  28% {
+    content: " Deve | ";
+  }
+  29% {
+    content: " Devel | ";
+  }
+  30% {
+    content: " Develo | ";
+  }
+  31% {
+    content: " Develop | ";
+  }
+  32% {
+    content: " Develope | ";
+  }
+  33% {
+    content: " Developer | ";
+  }
+  36% {
+    content: " Develope | ";
+  }
+  37% {
+    content: " Develop | ";
+  }
+  38% {
+    content: " Develo | ";
+  }
+  39% {
+    content: " Devel | ";
+  }
+  40% {
+    content: " Deve | ";
+  }
   41% {
-    content: "  | ";
+    content: " Dev | ";
   }
   42% {
-    content: " | ";
+    content: " De | ";
   }
   43% {
-    content: " p | ";
+    content: " D | ";
   }
   44% {
-    content: " ph | ";
+    content: "  | ";
   }
   45% {
-    content: " pho | ";
+    content: " | ";
   }
   46% {
-    content: " phot | ";
-  }
-  47% {
-    content: " photo | ";
-  }
-  48% {
-    content: " photog | ";
-  }
-  49% {
-    content: " photogr | ";
-  }
-  50% {
-    content: " photogra | ";
-  }
-  51% {
-    content: " photograp | ";
-  }
-  52% {
-    content: " photograph | ";
-  }
-  53% {
-    content: " photographe | ";
-  }
-  54% {
-    content: " photographer | ";
-  }
-  57% {
-    content: " photographe | ";
-  }
-  58% {
-    content: " photograph | ";
-  }
-  59% {
-    content: " photograp | ";
-  }
-  60% {
-    content: " photogra | ";
-  }
-  61% {
-    content: " photogr | ";
-  }
-  62% {
-    content: " photog | ";
-  }
-  63% {
-    content: " photo | ";
-  }
-  64% {
-    content: " phot | ";
-  }
-  65% {
-    content: " pho | ";
-  }
-  66% {
-    content: " ph | ";
-  }
-  67% {
     content: " p | ";
   }
+  47% {
+    content: " ph | ";
+  }
+  48% {
+    content: " pho | ";
+  }
+  49% {
+    content: " phot | ";
+  }
+  50% {
+    content: " photo | ";
+  }
+  51% {
+    content: " photog | ";
+  }
+  52% {
+    content: " photogr | ";
+  }
+  53% {
+    content: " photogra | ";
+  }
+  54% {
+    content: " photograp | ";
+  }
+  55% {
+    content: " photograph | ";
+  }
+  56% {
+    content: " photographe | ";
+  }
+  57% {
+    content: " photographer | ";
+  }
+  60% {
+    content: " photographe | ";
+  }
+  61% {
+    content: " photograph | ";
+  }
+  62% {
+    content: " photograp | ";
+  }
+  63% {
+    content: " photogra | ";
+  }
+  64% {
+    content: " photogr | ";
+  }
+  65% {
+    content: " photog | ";
+  }
+  66% {
+    content: " photo | ";
+  }
+  67% {
+    content: " phot | ";
+  }
   68% {
-    content: "  | ";
+    content: " pho | ";
   }
   69% {
-    content: " | ";
+    content: " ph | ";
   }
   70% {
-    content: " f | ";
+    content: " p | ";
   }
   71% {
-    content: " fr | ";
-  }
-  72% {
-    content: " fre | ";
-  }
-  73% {
-    content: " free | ";
-  }
-  74% {
-    content: " freel | ";
-  }
-  75% {
-    content: " freela | ";
-  }
-  76% {
-    content: " freelan | ";
-  }
-  77% {
-    content: " freelanc | ";
-  }
-  78% {
-    content: " freelance | ";
-  }
-  79% {
-    content: " freelancer | ";
-  }
-  82% {
-    content: " freelance | ";
-  }
-  83% {
-    content: " freelanc | ";
-  }
-  84% {
-    content: " freelan | ";
-  }
-  85% {
-    content: " freela | ";
-  }
-  86% {
-    content: " freel | ";
-  }
-  87% {
-    content: " free | ";
-  }
-  88% {
-    content: " fre | ";
-  }
-  89% {
-    content: " fr | ";
-  }
-  90% {
-    content: " f | ";
-  }
-  91% {
     content: "  | ";
   }
-  100% {
+  72% {
+    content: " | ";
+  }
+  73% {
+    content: " f | ";
+  }
+  74% {
+    content: " fr | ";
+  }
+  75% {
+    content: " fre | ";
+  }
+  76% {
+    content: " free | ";
+  }
+  77% {
+    content: " freel | ";
+  }
+  78% {
+    content: " freela | ";
+  }
+  79% {
+    content: " freelan | ";
+  }
+  80% {
+    content: " freelanc | ";
+  }
+  81% {
+    content: " freelance | ";
+  }
+  82% {
+    content: " freelancer | ";
+  }
+  84% {
+    content: " freelance | ";
+  }
+  85% {
+    content: " freelanc | ";
+  }
+  86% {
+    content: " freelan | ";
+  }
+  87% {
+    content: " freela | ";
+  }
+  88% {
+    content: " freel | ";
+  }
+  89% {
+    content: " free | ";
+  }
+  90% {
+    content: " fre | ";
+  }
+  91% {
+    content: " fr | ";
+  }
+  92% {
+    content: " f | ";
+  }
+  93% {
+    content: "  | ";
+  }
+  94% {
     content: " | ";
   }
 }
-/* ===============----second-section----============= */
-h2 {
-  position: relative;
+
+.fff-color {
+  background-color: #f8f8f8;
 }
-.inder-line-about h2::after {
-  content: "";
-  width: 15%;
+.inder-line-center {
+  width: 2.5rem;
+  height: 5px;
+  background-color: #0078ff;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.inder-line-left {
+  width: 6.25rem;
   height: 3px;
   background-color: #0078ff;
   position: absolute;
-  bottom: -15%;
+  bottom: 0%;
   left: 0%;
 }
+/* ===============----second-section----============= */
 
 .margin-section-block {
   margin-block: 5rem;
@@ -324,14 +332,6 @@ h2 {
   font-size: 3rem;
 }
 
-/* ===============----Services-section----============= */
-
-.inder-line-services {
-  width: 40px;
-  height: 5px;
-  background-color: #0078ff;
-  margin: 0 auto;
-}
 /* ===============----Services-section----============= */
 
 .Services-section .icon-circle {
@@ -379,18 +379,6 @@ h2 {
   left: 0;
 }
 
-/* .bg-maker-opacity {
-  background-color: #0078ff;
-  opacity: 0.7;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-} */
-
 .counter-section .icon-circle {
   display: flex;
   justify-content: center;
@@ -417,7 +405,7 @@ h2 {
   cursor: pointer;
 }
 /* ===============----slider-section----=============  */
-.slider-section {
+.bg-new-blue-slider {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -428,7 +416,7 @@ h2 {
   position: relative;
 }
 
-.slider-section::after {
+.bg-new-blue-slider::after {
   content: "";
   background-color: #0078ff;
   opacity: 0.7;
@@ -440,13 +428,15 @@ h2 {
   right: 0;
   left: 0;
 }
+
 /* ===============----blog-section----============= */
 .section-bg {
   background-color: #f5f5f5;
 }
 .blog-section .position-top-left {
-  top: -6%;
-  left: 41%;
+  top: -7%;
+  left: 50%;
+  transform: translate(-50%);
   letter-spacing: 0.1px;
   font-size: 0.7rem;
   padding: 5px 15px;
@@ -456,12 +446,65 @@ h2 {
   width: fit-content;
 }
 
-.fff-color {
-  background-color: #f8f8f8;
-}
-
 .width-new {
   width: 32px;
   height: 32px;
   margin-right: 4px;
+}
+/* ===============----form-section----============= */
+.bg-new-blue-form {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: fit-content;
+  background-image: url(/images/overlay-bg.jpg);
+  padding: 8rem 0;
+  position: relative;
+}
+
+.bg-new-blue-form::after {
+  content: "";
+  background-color: #0078ff;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.media-icons .icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+
+a:hover .icon-circle {
+  background-color: #0078ff;
+  color: var(--bs-black-rgb);
+  color: #fff !important;
+  box-shadow: 0 0 0 3px #cde1f8;
+}
+.form-section button {
+  padding: 10px 24px;
+}
+.form-section button:hover {
+  box-shadow: 0 0 0 3px #cde1f8;
+  background-color: #3393ff;
+  transition: all 0.4s;
+}
+/* ===============----footer-section----=============  */
+.footer-section {
+  background-color: #0062d3;
 }
