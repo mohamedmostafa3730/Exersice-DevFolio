@@ -20,10 +20,18 @@
     <!-- link with font.awesome.file -->
     <link rel="stylesheet" href="style/all.min.css" />
   </head>
-  <body>
-    <nav class="navbar-color w-100 position-fixed navbar navbar-expand-lg z-3">
+  <body data-bs-spy="scroll" data-bs-target="#navbar-section">
+    <!-- ===============----navbar-section----============= -->
+    <nav
+      class="navbar-section navbar-color w-100 position-fixed navbar navbar-expand-lg z-3"
+      id="navbar-section"
+    >
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">DevFolio</a>
+        <a
+          class="navbar-brand fw-bold text-decoration-none text-white fs-5"
+          href="#Home"
+          >DevFolio</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -33,29 +41,30 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i class="fa-solid fa-list"></i>
+          <i class="text-white fa-solid fa-list"></i>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavDropdown"
+          class="navbar-section-items collapse navbar-collapse justify-content-end"
         >
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item text-uppercase">
+              <a class="nav-link nav-item-hove active" href="#Home">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+            <li class="nav-item text-uppercase">
+              <a class="nav-link nav-item-hove active" href="#About">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+            <li class="nav-item text-uppercase">
+              <a class="nav-link nav-item-hove active" href="#Services"
+                >Services</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+            <li class="nav-item text-uppercase">
+              <a class="nav-link nav-item-hove active" href="#Work">Work</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+            <li class="nav-item text-uppercase">
+              <a class="nav-link nav-item-hove" href="#Blog">Blog</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item text-uppercase dropdown nav-item-hove">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -74,14 +83,17 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link text-uppercase nav-item-hove" href="#Contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="home-section vh-100">
+    <!-- ===============----home-section----============= -->
+    <div id="Home" class="home-section vh-100">
       <div
         class="text-center d-flex flex-column justify-content-center align-items-center position-absolute home-content top-0 bottom-0 start-0 end-0"
       >
@@ -90,7 +102,7 @@
       </div>
     </div>
     <!-- ===============----about-section----============= -->
-    <div class="about-section section-bg overflow-auto">
+    <div id="About" class="about-section section-bg overflow-auto">
       <div class="container section-bg margin-section-block">
         <div class="container bg-white shadow row">
           <div class="col-lg-6 my-5">
@@ -196,7 +208,7 @@
       </div>
     </div>
     <!-- ===============----Services-section----============= -->
-    <div class="Services-section section-bg overflow-auto">
+    <div id="Services" class="Services-section section-bg overflow-auto">
       <div
         class="container Services-section-head section-bg margin-section-block text-center mt-5"
       >
@@ -379,7 +391,7 @@
       </div>
     </div>
     <!-- ===============----Portfolio-section----============= -->
-    <div class="Portfolio-section section-bg overflow-auto">
+    <div id="Work" class="Portfolio-section section-bg overflow-auto">
       <div class="container section-bg margin-section-block">
         <div class="Portfolio-section-head text-center text-black">
           <h2 class="fw-bold large-font-size text-uppercase position-relative">
@@ -537,40 +549,62 @@
     <!-- ===============----slider-section----============= -->
     <div class="slider-section bg-new-blue-slider">
       <div class="container">
-        <div class="carousel-item active z-1">
-          <div class="image text-center rounded">
-            <img src="images/testimonial-2.jpg" class="rounded-circle" alt="" />
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
           </div>
-          <div class="content text-center mt-3">
-            <span class="">Xavi Alonso</span>
-            <p class="text-break mt-3">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="image text-center rounded">
-            <img
-              src="images/testimonial-4.jpeg"
-              class="rounded-circle"
-              alt=""
-            />
-          </div>
-          <div class="content text-center mt-3">
-            <span class="">Xavi Alonso</span>
-            <p class="text-break mt-3">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+          <div class="carousel-inner z-1">
+            <div class="carousel-item active">
+              <div class="image text-center rounded">
+                <img src="images/testimonial-2.jpg" class="rounded-circle" />
+              </div>
+              <div class="content text-center mt-3">
+                <span class="">Xavi Alonso</span>
+                <p class="text-break mt-3">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem.
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="image text-center rounded">
+                <img src="images/testimonial-4.jpeg" class="rounded-circle" />
+              </div>
+              <div class="content text-center mt-3">
+                <span class="">Xavi Alonso</span>
+                <p class="text-break mt-3">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem.
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- ===============----blog-section----============= -->
-    <div class="fff-color overflow-auto blog-section">
+    <div id="Blog" class="fff-color overflow-auto blog-section">
       <div class="container margin-section-block">
         <div class="blog-section-head text-center text-black">
           <h2 class="fw-bold large-font-size text-uppercase position-relative">
@@ -704,11 +738,11 @@
       </div>
     </div>
     <!-- ===============----form-section----============= -->
-    <div class="form-section bg-new-blue-form">
+    <div id="Contact" class="form-section bg-new-blue-form">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 bg-white z-2">
-            <div class="inner mx-auto m-5 me-0">
+            <div class="inner my-5 mx-lg-4 me-0 pe-0">
               <div class="head mb-4">
                 <h5 class="fw-medium fs-2">Send Message Us</h5>
                 <div class="inder-line-left position-relative"></div>
@@ -756,7 +790,7 @@
             </div>
           </div>
           <div class="col-lg-6 bg-white z-2">
-            <div class="inner mx-auto m-5 ms-0">
+            <div class="inner my-5 mx-lg-3 ms-0 ps-0">
               <div class="head mb-4">
                 <h5 class="fw-medium fs-2">Get in Touch</h5>
                 <div class="inder-line-left position-relative"></div>
